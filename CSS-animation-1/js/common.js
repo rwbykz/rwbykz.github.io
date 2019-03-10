@@ -1,0 +1,3 @@
+$(function() {
+	$(".thumb-item").brazzersCarousel();
+});
