@@ -78,7 +78,7 @@ input:-moz-placeholder {
     top: 2px;
     width: 7px;
     height: 13px;
-    background: url(images/arrrr-btn.webp) no-repeat center;
+    background: url(images/arrrr-btn-min.png) no-repeat center;
 }
 .btn-callback:hover{
     color: #330000;
@@ -113,7 +113,7 @@ input:-moz-placeholder {
 header{
     min-height: 1124px;
     padding-top: 70px;
-    background: url(images/header-lg.webp) no-repeat center top;
+    background: url(images/header-lg-min.png) no-repeat center top;
     overflow: hidden;
     position: relative;
     z-index: 4;
@@ -126,7 +126,7 @@ header .welcome-sec{
 header .welcome-sec .left-col{
     min-height: 537px;
     min-width: 820px;
-    background: url(images/bg-header.webp) no-repeat center;
+    background: url(images/bg-header-min.png) no-repeat center;
     padding-top: 90px;
     padding-left: 375px;
     margin-left: -375px;
@@ -170,7 +170,7 @@ header .welcome-sec .left-col .description-h:before{
     top: 5px;
     width: 6px;
     height: 11px;
-    background: url(images/arrr.webp) no-repeat center;
+    background: url(images/arrr-min.png) no-repeat center;
 }
 header .welcome-sec .left-col .flex-parent{
     display: flex;
@@ -189,7 +189,7 @@ header .welcome-sec .left-col .flex-parent .under:before{
     position: absolute;
     width: 25px;
     height: 30px;
-    background: url(images/under.webp) no-repeat center;
+    background: url(images/under-min.png) no-repeat center;
     left: 0;
     top: 5px;
 }
@@ -211,7 +211,7 @@ header .welcome-sec .right-col > a:before{
     z-index: 2;
     width: 31px;
     height: 31px;
-    background: url(images/phone-icon.webp) no-repeat center;
+    background: url(images/phone-icon-min.png) no-repeat center;
     top: 3px;
     left: 0;
 }
@@ -234,7 +234,7 @@ header .welcome-sec .right-col .social-icons a span{
 }
 header .candles{
     min-height: 458px;
-    background: url(images/candles.webp) no-repeat center top;
+    background: url(images/candles-min.png) no-repeat center top;
     margin-top: -95px;
     position: relative;
     padding-top: 237px;
@@ -246,7 +246,7 @@ header .candles .c-figure {
     top: -100px;
     width: 354px;
     height: 379px;
-    background: url(images/c-figure.webp) no-repeat center;
+    background: url(images/c-figure-min.png) no-repeat center;
     background-size: 100% 100%;
 }
 header .candles .flex-parent{
@@ -272,7 +272,7 @@ header .candles .flex-parent .left-col span:after{
     position: absolute;
     width: 66px;
     height: 75px;
-    background: url(images/c1.webp) no-repeat center;
+    background: url(images/c1-min.png) no-repeat center;
     right: 0;
     top: -17px;
 }
@@ -293,7 +293,7 @@ header .candles .flex-parent .right-col span:after{
     position: absolute;
     width: 63px;
     height: 57px;
-    background: url(images/c2.webp) no-repeat center;
+    background: url(images/c2-min.png) no-repeat center;
     left: 0;
     top: -2px;
 }
@@ -301,7 +301,7 @@ header .candles .flex-parent .right-col span:after{
 /* === SERVICES === */
 .services{
     min-height: 963px;
-    background: url(images/services.webp) no-repeat center;
+    background: url(images/services-min.png) no-repeat center;
     position: relative;
     z-index: 3;
     margin-top: -60px;
@@ -354,7 +354,7 @@ header .candles .flex-parent .right-col span:after{
 /* === PRIVILEGE === */
 .privilege{
     min-height: 491px;
-    background: url(images/privilege.webp) no-repeat center;
+    background: url(images/privilege-min.png) no-repeat center;
     padding-top: 95px;
 }
 
@@ -399,7 +399,7 @@ header .candles .flex-parent .right-col span:after{
 
 .form-map .left-col{
     width: 50%;
-    background: url(images/form-bg.webp) no-repeat center right;
+    background: url(images/form-bg-min.png) no-repeat center right;
     padding-top: 95px;
 }
 .all-w{
@@ -520,7 +520,7 @@ header .candles .flex-parent .right-col span:after{
 /* === STATISTIC SECTION === */
 .statistic{
     min-height: 1607px;
-    background: url(images/last-sec-bg.webp) no-repeat center top;
+    background: url(images/last-sec-bg-min.png) no-repeat center top;
     padding-top: 160px;
 }
 .statistic .flex-parent{
@@ -541,7 +541,7 @@ header .candles .flex-parent .right-col span:after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(images/cc.webp) no-repeat center;
+    background: url(images/cc-min.png) no-repeat center;
     padding-right: 24px;
     padding-top: 20px;
 }
@@ -654,7 +654,7 @@ header .candles .flex-parent .right-col span:after{
     z-index: 2;
     width: 21px;
     height: 21px;
-    background: url(images/phone-icon.webp) no-repeat center;
+    background: url(images/phone-icon-min.png) no-repeat center;
     background-size: 100%;
     top: 3px;
     left: 0;
@@ -681,7 +681,7 @@ header .candles .flex-parent .right-col span:after{
     position: absolute;
     width: 25px;
     height: 30px;
-    background: url(images/under.webp) no-repeat center;
+    background: url(images/under-min.png) no-repeat center;
     left: 0;
     top: 5px;
 }
@@ -836,7 +836,7 @@ header .candles .flex-parent .right-col span:after{
     }
     header {
         min-height: 858px;
-        background: url(images/header-bg.webp) no-repeat center top;
+        background: url(images/header-bg-min.png) no-repeat center top;
         background-size: cover;
     }
     .services .flex-parent .txt-wrapper b{
@@ -898,7 +898,7 @@ header .candles .flex-parent .right-col span:after{
     }
     .services {
         min-height: 713px;
-        background: url(images/services-md.webp) no-repeat center;
+        background: url(images/services-md-min.png) no-repeat center;
         background-size: cover;
         z-index: 5;
         margin-top: -36px;
@@ -931,7 +931,7 @@ header .candles .flex-parent .right-col span:after{
     }
     .privilege {
         min-height: 465px;
-        background: url(images/privilege-md.webp) no-repeat center;
+        background: url(images/privilege-md-min.png) no-repeat center;
         background-size: cover;
         padding-top: 75px;
     }
@@ -950,7 +950,7 @@ header .candles .flex-parent .right-col span:after{
     }
     .form-map .left-col {
         height: 430px;
-        background: url(images/form-bg-md.webp) no-repeat center right;
+        background: url(images/form-bg-md-min.png) no-repeat center right;
         background-size: cover;
         padding-top: 78px;
     }
@@ -962,7 +962,7 @@ header .candles .flex-parent .right-col span:after{
     }
     .statistic {
         min-height: 1242px;
-        background: url(images/last-sec-bg-md.webp) no-repeat center bottom;
+        background: url(images/last-sec-bg-md-min.png) no-repeat center bottom;
         background-size: cover;
         padding-top: 80px;
     }
@@ -1068,7 +1068,7 @@ header .candles .flex-parent .right-col span:after{
     }
     header {
         min-height: 608px;
-        background: url(images/header-bg-xs.webp) no-repeat center top;
+        background: url(images/header-bg-xs-min.png) no-repeat center top;
         background-size: cover;
         padding-top: 23px;
     }
@@ -1156,7 +1156,7 @@ header .candles .flex-parent .right-col span:after{
     }
     header .candles{
         height: 203px;
-        background: url(images/candles-xs.webp) no-repeat center center;
+        background: url(images/candles-xs-min.png) no-repeat center center;
         background-size: 100%;
         padding-right: 10px;
         padding-left: 10px;
@@ -1232,7 +1232,7 @@ header .candles .flex-parent .right-col span:after{
 }
 .services {
     min-height: 787px;
-    background: url(images/services-xs.webp) no-repeat center;
+    background: url(images/services-xs-min.png) no-repeat center;
     background-size: cover;
     padding-top: 0;
     padding-bottom: 30px;
@@ -1269,7 +1269,7 @@ header .candles .flex-parent .right-col span:after{
 .form-map .left-col {
     min-height: 347px;
     height: auto;
-    background: url(images/form-bg-xs.webp) no-repeat center right;
+    background: url(images/form-bg-xs-min.png) no-repeat center right;
     background-size: cover;
     padding-top: 28px;
     padding-bottom: 30px;
@@ -1356,7 +1356,7 @@ header .candles .flex-parent .right-col span:after{
 }
 .statistic {
     min-height: 1448px;
-    background: url(images/last-sec-bg-xs.webp) no-repeat center top;
+    background: url(images/last-sec-bg-xs-min.png) no-repeat center top;
     background-size: cover;
     padding-top: 40px;
 }
@@ -1466,7 +1466,7 @@ header .candles .flex-parent .right-col span:after{
     position: absolute;
     width: 20px;
     height: 30px;
-    background: url(images/under.webp) no-repeat center;
+    background: url(images/under-min.png) no-repeat center;
     background-size: 100%;
     left: 0;
     top: 0;
