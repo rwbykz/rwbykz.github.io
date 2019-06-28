@@ -2,56 +2,12 @@
    @import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
    @import url(css/owl.carousel.min.css);
 
-/* === FONTS IMPORT === */
-    @font-face {
-       font-family: 'globerregular';
-       src: url('fonts/glober_regular-webfont.woff2') format('woff2'),
-            url('fonts/glober_regular-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-   }
-
-   @font-face {
-       font-family: 'globerxbold';
-       src: url('fonts/glober_xbold-webfont.woff2') format('woff2'),
-            url('fonts/glober_xbold-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-   }
-
-   @font-face {
-       font-family: 'yanone_kaffeesatzbold';
-       src: url('fonts/yanonekaffeesatz-bold-webfont.woff2') format('woff2'),
-            url('fonts/yanonekaffeesatz-bold-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-
-   }
-
-   @font-face {
-       font-family: 'yanone_kaffeesatzlight';
-       src: url('fonts/yanonekaffeesatz-light-webfont.woff2') format('woff2'),
-            url('fonts/yanonekaffeesatz-light-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-
-   }
-
-   @font-face {
-       font-family: 'yanone_kaffeesatzregular';
-       src: url('fonts/yanonekaffeesatz-regular-webfont.woff2') format('woff2'),
-            url('fonts/yanonekaffeesatz-regular-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-
-   }
-
-/* === GLOBAL SETTINGS === */
    * {
       outline: none!important;
    }
    body{
-      font-family: 'globerregular';
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
       line-height: 1;
       background: #000000;
    }
@@ -134,7 +90,7 @@
     .heading{
         font-size: 58px;
         text-transform: uppercase;
-        font-family: 'yanone_kaffeesatzbold';
+        font-family: 'Roboto';
         text-align: center;
         color: #fff2c0;
         letter-spacing: 1.5px;
@@ -176,7 +132,7 @@
         margin-left: -375px;
     }
     header .welcome-sec .left-col .heading-h{
-        font-family: 'yanone_kaffeesatzregular';
+        font-family: 'Roboto';
         text-transform: uppercase;
         font-size: 85px;
         background: rgba(227,144,1,1);
@@ -194,7 +150,7 @@
         margin-bottom: 2px;
     }
     header .welcome-sec .left-col .subtitle-h{
-        font-family: 'yanone_kaffeesatzlight';
+        font-family: 'Roboto';
         color: #fff2c0;
         font-size: 40px;
     }
@@ -294,7 +250,7 @@
         background-size: 100% 100%;
     }
     header .candles .flex-parent{
-        font-family: 'yanone_kaffeesatzbold';
+        font-family: 'Roboto';
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -381,7 +337,7 @@
     padding-top: 35px;
   }
   .services .flex-parent .txt-wrapper b{
-    font-family: 'yanone_kaffeesatzbold';
+    font-family: 'Roboto';
     display: block;
     font-weight: normal;
     text-transform: uppercase;
@@ -419,7 +375,7 @@
         max-width: 825px;
     }
     .privilege .flex-parent .col{
-        font-family: 'yanone_kaffeesatzregular';
+        font-family: 'Roboto';
         display: flex;
         align-items: center;
         color: #ffffcc;
@@ -458,7 +414,7 @@
     }
 
     .form-map .left-col .heading-f{
-        font-family: 'yanone_kaffeesatzbold';
+        font-family: 'Roboto';
         text-transform: uppercase;
         color: #ffcc00;
         font-size: 58px;
@@ -591,12 +547,12 @@
         padding-top: 20px;
     }
     .statistic .flex-parent .col .numeric p{
-         font-family: 'yanone_kaffeesatzbold';
+         font-family: 'Roboto';
         font-size: 90px;
         line-height: .7;
     }
     .statistic .flex-parent .col > p{
-        font-family: 'yanone_kaffeesatzregular';
+        font-family: 'Roboto';
         display: block;
         font-size: 35px;
         color: #ffcc00;
@@ -619,7 +575,7 @@ min-width: 180px;
         margin-right: 35px;
     }
     .owl-carousel .item .txt p {
-         font-family: 'yanone_kaffeesatzbold';
+         font-family: 'Roboto';
         font-size: 35px;
         color: #ffcc00;
         margin-bottom: 15px;
@@ -659,7 +615,7 @@ min-width: 180px;
     }
     .footer .logo{
         font-size: 43px;
-        font-family: 'yanone_kaffeesatzregular';
+        font-family: 'Roboto';
         background: rgba(227,144,1,1);
         background: -moz-linear-gradient(-45deg, rgba(227,144,1,1) 0%, rgba(233,202,0,1) 100%);
         background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(227,144,1,1)), color-stop(100%, rgba(233,202,0,1)));
@@ -675,7 +631,7 @@ min-width: 180px;
         text-transform: uppercase;
     }
     .footer .description{
-        font-family: 'yanone_kaffeesatzlight';
+        font-family: 'Roboto';
         color: #fff2c0;
         font-size: 20px;
         line-height: 1.1;
