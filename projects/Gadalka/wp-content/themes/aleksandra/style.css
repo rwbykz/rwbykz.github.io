@@ -1560,3 +1560,7 @@ min-width: 125px;
     text-align: center;
     max-width: 350px;
 }
+
+.container {
+    margin: 0 auto;
+}
