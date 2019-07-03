@@ -127,3 +127,27 @@ document.getElementById('lang-select').addEventListener('click', function langSe
   }
 })
 
+//Choose city
+var cityInput = document.querySelectorAll('.hero__input');
+var searchList = document.getElementById('city_list');
+
+cityInput.forEach(function(input) {
+  input.addEventListener('input', function(e) {
+    var inputValue = +input.value;
+    console.log(inputValue);
+    if (inputValue !== null && inputValue !== 0) {
+      // console.log(inputValue);
+      searchList.classList.add('search_city_active');
+    } else {
+      searchList.classList.remove('search_city_active');
+    }
+  })
+})
+
+//Clear input
+document.getElementById('city_close').onclick = cityClose;
+
+function cityClose() {
+  document.getElementById('hero__input').value = "";
+  searchList.classList.remove('search_city_active');
+}

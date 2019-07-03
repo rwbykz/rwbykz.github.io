@@ -46,11 +46,23 @@
         </p>
       </div>
       <div class="hero_search">
-        <img src="./img/Map_icon.png" alt="Map mark">
-        <input type="text" placeholder="Choose your city..." class="hero__input">
-        <button class="search__close">
-          <img src="./img/icon-close.png" alt="Close">
-        </button>
+        <div class="hero_search__city">
+          <img src="./img/Map_icon.png" alt="Map mark">
+          <input type="text" placeholder="Choose your city..." class="hero__input" id="hero__input" name="choose_city">
+          <button class="search__close" id="city_close">
+            <img src="./img/icon-close.png" alt="Close">
+          </button>
+        </div>
+
+      </div>
+      <div class="search_city__content">
+        <ul class="search_city__list" id="city_list">
+          <li class="search_city__item">London, United Kingdom</li>
+          <li class="search_city__item">Los Angeles, CA</li>
+          <li class="search_city__item">Long Beach, CA</li>
+          <li class="search_city__item">Louiseville, KY</li>
+          <li class="search_city__item">Long Island, NY</li>
+        </ul>
       </div>
     </div>
   </div>
