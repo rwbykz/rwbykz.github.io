@@ -15,15 +15,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="header_content">Logotype</div>
+					<!-- <div class="header_content">Logotype</div> -->
 				</div>
 				<div class="col-md-6">
 					<div class="header_content" style="justify-content: flex-end;">
 						<nav>
 							<ul class="main_menu">
+								<!-- <li><a href="https://2gis.kz/kokshetau/geo/70030076161278638?m=69.370145%2C53.272172%2F18.45">Мы в 2gis</a></li> -->
 								<!-- <li><a href="#">О нас</a></li> -->
 								<li><a href="" class="scroll-anch" data-target="#aparts">Квартиры</a></li>
-								<li><a href="#">Контакты</a></li>
+								<!-- <li><button type="button" class="header_modal__btn" data-target="#contacts" data-toggle="modal">Контакты</button></li> -->
 								<li><a href="tel:+77059510746" class="btn header_btn">Позвонить</a></li>
 							</ul>
 						</nav>
@@ -175,9 +176,25 @@
 
 <!-- Modal -->
 <section class="gallery_modals">
+	<div class="modal fade" id="contacts" tabindex="-1" role="dialog" aria-labelledby="contactsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="header_modal__content">
+	
+				<div class="modal_header">
+					<h3>Контакты</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+				</button></div>
+				<div class="modal_body">
+
+				</div>
+	
+			</div>
+		</div>
+	</div>
 	<div class="modal fade" id="modal-img-2" tabindex="-1" role="dialog" aria-labelledby="modal-img-2-Label" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+			<div class="modal-content" data-dismiss="modal">
 	
 				<div class="modal_bigsize_image">
 					<img src="img/img-1.jpg" alt="Image">
@@ -188,7 +205,7 @@
 	</div>
 	<div class="modal fade" id="modal-img-1" tabindex="-1" role="dialog" aria-labelledby="modal-img-1-Label" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+			<div class="modal-content" data-dismiss="modal">
 	
 				<div class="modal_bigsize_image">
 					<img src="img/img-1.jpg" alt="Image">
@@ -199,7 +216,7 @@
 	</div>
 	<div class="modal fade" id="modal-img-3" tabindex="-1" role="dialog" aria-labelledby="modal-img-3-Label" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+			<div class="modal-content" data-dismiss="modal">
 	
 				<div class="modal_bigsize_image">
 					<img src="img/img-1.jpg" alt="Image">
@@ -210,7 +227,7 @@
 	</div>
 	<div class="modal fade" id="modal-img-4" tabindex="-1" role="dialog" aria-labelledby="modal-img-4-Label" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+			<div class="modal-content" data-dismiss="modal">
 	
 				<div class="modal_bigsize_image">
 					<img src="img/img-1.jpg" alt="Image">
@@ -221,7 +238,7 @@
 	</div>
 	<div class="modal fade" id="modal-img-5" tabindex="-1" role="dialog" aria-labelledby="modal-img-5-Label" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+			<div class="modal-content" data-dismiss="modal">
 	
 				<div class="modal_bigsize_image">
 					<img src="img/img-1.jpg" alt="Image">
@@ -314,9 +331,11 @@
 						<p class="content_item__title">Адрес</p>
 						<p class="content_item__text" style="margin-bottom: 10px;">Апартаменты находятся г. Кокшетау, ул. Валиханова, дом 30</p>
 						<p class="content_item__text">Рядом остановка “Ласточка” (230м), автобусы №5, №22, №56.</p>
+						<a href="https://2gis.kz/kokshetau/geo/70030076161278638?m=69.370145%2C53.272172%2F18.45" target="_blank" class="link_togis">Открыть в 2gis</a>
+						<div class="yandex_map" id="yandex_map" style="width:100%; max-width: 520px; height: 300px;"></div>
 					</div>
 					<div class="desc_content__item">
-						<p class="content_item__title">Адрес</p>
+						<p class="content_item__title">Правила дома</p>
 						<div class="content_item__bans">
 							<img src="img/icons/no-smoking 1.svg" alt="Icon">
 							<p class="content_item__text">В помещении запрещено курить</p>
@@ -333,7 +352,7 @@
 				</div>
 			</div>
 			<div class="col-md-6" style="display: flex; justify-content: flex-end; padding-top: 40px;">
-				<div class="desc_feedback animated wow fadeIn" data-wow-delay="1.5s">
+				<div class="desc_feedback animated wow fadeIn" data-wow-delay="1s">
 					<div class="desc_feedback__title">
 						<span style="font-size: 24px; font-weight: 500;">6000</span> тенге за сутки
 					</div>
@@ -371,15 +390,14 @@
 			</div>
 		</div>
 	</footer>
-	 <section>
-	 <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
-  </script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- 	<script src="js/libs.min.js"></script>
- 	<script src="js/common.js"></script>
- 	<script src="js/wow.min.js"></script>
- </section>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=3278af58-ea3a-4276-80da-ff161f34e7ad&lang=ru_RU" type="text/javascript">
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script src="js/libs.min.js"></script> -->
+<script src="js/wow.min.js"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
