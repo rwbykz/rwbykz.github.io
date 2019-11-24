@@ -666,7 +666,11 @@ body {
     display: block;
     position: fixed;
     bottom: 0;
-    z-index: 10; } }
+    z-index: 10; }
+  .link_togis {
+    width: 100%; }
+  .copy {
+    padding-bottom: 80px; } }
 
 @media only screen and (max-width: 320px) {
   .hero_title__subtitle {
