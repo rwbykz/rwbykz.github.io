@@ -55,3 +55,5 @@ changeWord();
 setInterval(changeWord, 4000);
 
 // Hero words animation end
+
+// Smooth scroll start
