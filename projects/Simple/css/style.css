@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px; }
 
@@ -703,3 +704,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   color: #767676;
   font-size: 14px;
   font-weight: 300; }
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 280px; } }
