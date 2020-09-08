@@ -57,9 +57,9 @@ let mySwiper = new Swiper(slider, {
   preloadImages: false,
   // Enable lazy loading
   lazy: true,
-  autoplay: {
-    delay: 3000,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  // },
   breakpoints: {
     900: {
       slidesPerView: 3,

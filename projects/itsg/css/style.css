@@ -84,7 +84,7 @@ h1 {
   .container {
     padding: 0 20px; } }
 
-.hero, .about, .comparison, .clients, .services, .feedback, .service-page {
+.hero, .about, .comparison, .clients, .services, .feedback, .service-page, .location, .bonus {
   padding-bottom: 80px; }
 
 @media screen and (max-width: 768px) {
@@ -363,7 +363,128 @@ h1 {
   .blob__first, .blob__second {
     display: none; } }
 
-.about__text {
+.advantages__stat {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0; }
+
+.advantages__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.advantages__num {
+  font-family: 'Russo One', sans-serif;
+  color: #EF7F1A;
+  font-size: 45px; }
+
+.advantages__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5b5b5b; }
+
+.advantages__map {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .advantages__map img {
+    width: 100%;
+    height: 100%; }
+
+.bonus-cards {
+  padding-top: 40px; }
+
+.bonus-cards__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .bonus-cards__row:last-child {
+    margin-bottom: 0; }
+
+.bonus__text {
+  padding-top: 16px; }
+
+.bonus-cards__item {
+  padding: 32px 24px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  border: 1px solid #DADCE0;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  max-width: 380px;
+  min-width: 380px;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms; }
+  .bonus-cards__item:hover {
+    -webkit-box-shadow: 0px 0px 20px rgba(16, 16, 16, 0.25);
+            box-shadow: 0px 0px 20px rgba(16, 16, 16, 0.25); }
+    .bonus-cards__item:hover .bonus-cards__title {
+      color: #EF7F1A; }
+  .bonus-cards__item:last-child {
+    margin-right: 0; }
+
+@media screen and (max-width: 960px) {
+  .bonus-cards__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .bonus-cards__item {
+    margin-right: 0; } }
+
+.bonus-cards__title {
+  margin-bottom: 12px;
+  text-transform: none;
+  font-size: 23px;
+  letter-spacing: 0.02em; }
+
+@media screen and (max-width: 440px) {
+  .bonus-cards__item {
+    max-width: 100%;
+    min-width: 280px; }
+  .bonus-cards__title {
+    font-size: 19px; } }
+
+.about__text, .location__text {
   margin: 16px 0; }
 
 .about__link {
@@ -528,7 +649,19 @@ h1 {
   border-color: #EF7F1A; }
 
 .swiper-slide {
-  text-align: center; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 90px; }
   .swiper-slide img {
     max-width: 100%; }
 
