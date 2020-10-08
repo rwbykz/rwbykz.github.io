@@ -56,10 +56,10 @@ let mySwiper = new Swiper(slider, {
   // Disable preloading of all images
   preloadImages: false,
   // Enable lazy loading
-  lazy: true,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+  // lazy: true,
+  autoplay: {
+    delay: 3000,
+  },
   breakpoints: {
     900: {
       slidesPerView: 3,
