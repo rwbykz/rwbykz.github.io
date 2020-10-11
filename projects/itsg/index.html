@@ -8,6 +8,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,8 +23,7 @@
 					<div class="header__row">
 						<ul class="header__menu">
 							<li><a href="#"><img src="img/logox2.jpg" alt="logo"></a></li>
-							<li><a href="#services">Услуги</a></li>
-							<!-- <li><a href="#">Контакты</a></li> -->
+							<p class="header__subtitle">Техническая поддержка Ваших достежений!</p>
 						</ul>
 						<div class="header__btns">
 							<div class="header__btns_wrap">
@@ -48,43 +51,43 @@
 								аутсорсинг
 							</h1>
 							<p class="subtitle">для малого и среднего бизнеса</p>
-							<a href="#" class="hero__btn btn">Узнать больше</a>
+							<a href="#" class="hero__btn btn scroll-anch" data-target="#about">Узнать больше</a>
 						</div>
 						<ul class="links">
 							<li>
-								<a href="/service-pc.html" class="links__card">
+								<a href="service-pc.html" class="links__card">
 									<div class="links__card_wrapper">
-										<img src="img/icons/monitor.png" alt="pc">
-										Обслуживание компьютеров
+										<img src="img/icons/monitor.png" srcset="img/icons/monitor-retina.png 2x" alt="pc">
+										Автоматизация предприятий
 									</div>
-									<img src="img/icons/arrow.jpg" alt="link">
+									<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
 								</a>
 							</li>
 							<li>
-								<a href="/service-web-kassa.html" class="links__card">
+								<a href="service-web-kassa.html" class="links__card">
 									<div class="links__card_wrapper">
-										<img src="img/icons/server.png" alt="server">
+										<img src="img/icons/server.png" srcset="img/icons/server-retina.png 2x" alt="server">
+										1с Бухгалтерия / Торговля
+									</div>
+									<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
+								</a>
+							</li>
+							<li>
+								<a href="service-ip-phone.html" class="links__card">
+									<div class="links__card_wrapper">
+										<img src="img/icons/cart.png" srcset="img/icons/cart-retina.png 2x" alt="Cart">
 										Web-касса
 									</div>
-									<img src="img/icons/arrow.jpg" alt="link">
+									<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
 								</a>
 							</li>
 							<li>
-								<a href="/service-ip-phone.html" class="links__card">
+								<a href="" class="links__card scroll-anch" data-target="#services">
 									<div class="links__card_wrapper">
-										<img src="img/icons/phone.png" alt="ATC">
-										iP Телефония
-									</div>
-									<img src="img/icons/arrow.jpg" alt="link">
-								</a>
-							</li>
-							<li>
-								<a href="#" class="links__card hero-services-link">
-									<div class="links__card_wrapper">
-										<img src="img/icons/group.png" alt="All">
+										<img src="img/icons/group.png" srcset="img/icons/group-retina.png 2x" alt="All">
 										Все услуги
 									</div>
-									<img src="img/icons/arrow.jpg" alt="link">
+									<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
 								</a>
 							</li>
 						</ul>
@@ -95,7 +98,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="location">
+			<div class="location" id="loc">
 				<div class="container">
 					<div class="location__row">
 						<div class="title-block">
@@ -113,7 +116,7 @@
 						</p>
 						<div class="about__link">
 							География наших клиентов, которым мы ежедневно помогаем решать IT задачи
-							<img src="img/icons/arrow.jpg" alt="link">
+							<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
 						</div>
 						<div class="advantages">
 							<div class="advantages__stat">
@@ -191,7 +194,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="about">
+			<div class="about" id="about">
 				<div class="container">
 					<div class="about__row">
 						<p class="subtitle">
@@ -209,7 +212,7 @@
 						</p>
 						<div class="about__link">
 							Давайте сравним затраты обслуживания компьютеров
-							<img src="img/icons/arrow.jpg" alt="link">
+							<img src="img/icons/arrow.png" srcset="img/icons/arrow-retina.png 2x" alt="link">
 						</div>
 					</div>
 				</div>
@@ -223,7 +226,7 @@
 							</div>
 							<div class="comparison__item">
 								<img src="img/icons/checkbox.svg" alt="checked">
-								<p class="comparison__text">Опытные специалисты</p>
+								<p class="comparison__text">Штат специалистов</p>
 							</div>
 							<div class="comparison__item">
 								<img src="img/icons/checkbox.svg" alt="checked">
@@ -276,7 +279,7 @@
 							<div class="comparison__item">
 								<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M21.188 24H2.813A2.816 2.816 0 010 21.187V2.813A2.816 2.816 0 012.813 0h18.375A2.816 2.816 0 0124 2.813v18.375A2.816 2.816 0 0121.187 24zM2.813 1.875a.939.939 0 00-.938.938v18.375c0 .516.42.937.938.937h18.375c.516 0 .937-.42.937-.938V2.813a.939.939 0 00-.938-.937H2.813zm17.385 5.22l-1.396-1.252-8.67 9.683-5.033-4.783L3.807 12.1l6.432 6.115L20.2 7.094z" fill="#DADCE0"></path></svg>
-								<p class="comparison__text">Заработная плата / премии / отпуск</p>
+								<p class="comparison__text">Заработная плата / премии / отпуск / соц. отчисления</p>
 							</div>
 							<div class="comparison__price comparison__price_width">
 								<p class="comparison__text">
@@ -321,6 +324,12 @@
 									<div class="swiper-slide">
 										<img src="img/slider/slider-2.jpg" alt="GalaKlinica">
 									</div>
+									<!-- <div class="swiper-slide">
+										<img src="img/slider/slider-7.jpeg" alt="GalaKlinica">
+									</div>
+									<div class="swiper-slide">
+										<img src="img/slider/slider-8.jpeg" alt="GalaKlinica">
+									</div> -->
 								</div>
 							</div>
 							<div class="swiper-button-next"></div>
@@ -425,6 +434,7 @@
 
 	 <section>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  	<script src="js/common.js"></script>
  </section>
 </body>
