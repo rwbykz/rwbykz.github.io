@@ -54,7 +54,7 @@
 		</header>
 
 
-		<div class="modal fade" id="mobileMenu" tabindex="-1" aria-labelledby="mobileMenu" aria-hidden="true">
+		<div class="modal fade" id="mobileMenu" role="dialog" tabindex="-1" aria-labelledby="mobileMenu" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -65,10 +65,10 @@
 					</div>
 					<div class="modal-body">
 						<ul class="main-nav">
-							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#about">О школе</a></li>
-							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#program">Программа</a></li>
-							<li class="main-nav__item main-nav__item_price"><a href="#" class="main-nav__link scroll-anch" data-target="#price">Цены</a></li>
-							<li class="main-nav__item main-nav__item_button"><a href="#" class="main-nav__link main-nav__button button scroll-anch" data-target="#feedback">Бесплатный урок</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#about" onclick="$('#mobileMenu').modal('hide')">О школе</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#program" onclick="$('#mobileMenu').modal('hide')">Программа</a></li>
+							<li class="main-nav__item main-nav__item_price"><a href="#" class="main-nav__link scroll-anch" data-target="#price" onclick="$('#mobileMenu').modal('hide')">Цены</a></li>
+							<li class="main-nav__item main-nav__item_button"><a href="#" class="main-nav__link main-nav__button button scroll-anch" data-target="#feedback" onclick="$('#mobileMenu').modal('hide')">Бесплатный урок</a></li>
 						</ul>
 					</div>
 				</div>
