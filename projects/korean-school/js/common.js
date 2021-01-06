@@ -14,4 +14,7 @@ $(document).ready(function () {
       scrollTop: $(this).offset().top
     }, 1050)
   });
+
+  // Animation
+  new WOW().init();
 });
