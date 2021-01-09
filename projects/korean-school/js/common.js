@@ -10,6 +10,7 @@ $(document).ready(function () {
   });
 
   $('.scroll-anch').click(function () {
+    $('#mobileMenu').modal('hide');
     $('html body').animate({
       scrollTop: $(this).offset().top
     }, 1050)

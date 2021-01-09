@@ -21,7 +21,7 @@
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<!-- ------ -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
@@ -65,10 +65,10 @@
 					</div>
 					<div class="modal-body">
 						<ul class="main-nav">
-							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#about" onclick="$('#mobileMenu').modal('hide')">О школе</a></li>
-							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#program" onclick="$('#mobileMenu').modal('hide')">Программа</a></li>
-							<li class="main-nav__item main-nav__item_price"><a href="#" class="main-nav__link scroll-anch" data-target="#price" onclick="$('#mobileMenu').modal('hide')">Цены</a></li>
-							<li class="main-nav__item main-nav__item_button"><a href="#" class="main-nav__link main-nav__button button scroll-anch" data-target="#feedback" onclick="$('#mobileMenu').modal('hide')">Бесплатный урок</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#about">О школе</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link scroll-anch" data-target="#program">Программа</a></li>
+							<li class="main-nav__item main-nav__item_price"><a href="#" class="main-nav__link scroll-anch" data-target="#price">Цены</a></li>
+							<li class="main-nav__item main-nav__item_button"><a href="#" class="main-nav__link main-nav__button button scroll-anch" data-target="#feedback">Бесплатный урок</a></li>
 						</ul>
 					</div>
 				</div>
@@ -85,8 +85,8 @@
 									<h3 class="hero__subtitle">Онлайн школа</h3>
 									<h2 class="hero__title">Корейского языка</h2>
 									<p class="hero__text">
-										Давно мечтаешь изучить корейский язык,
-										но не знаешь с чего начать?
+										Давно мечтаете изучить корейский язык,
+										но не знаете с чего начать?
 									</p>
 									<a href="#" class="hero__link button">Давайте начнем</a>
 								</div>
@@ -159,9 +159,9 @@
 						<div class="col-12">
 							<div class="first-form">
 								<div class="first-form__content">
-									<h2 class="first-form__title">Оставь заявку и получи подарок!</h2>
-									<p class="first-form__text">Расскажи нам, как с тобой связаться и мы пригласим тебя на бесплатный пробный урок,
-										а также подарим полезную шпаргалку, которая поможет тебе в изучении языка!</p>
+									<h2 class="first-form__title">Оставьте заявку и получите подарок!</h2>
+									<p class="first-form__text">Расскажите нам, как с Вами связаться и мы пригласим Вас на бесплатный пробный урок,
+										а также подарим полезную шпаргалку, которая поможет Вам в изучении языка!</p>
 									<form action="POST" class="first-form__form">
 										<label><input type="text" class="first-form__input" placeholder="Ваше имя"></label>
 										<label><input type="text" class="first-form__input" placeholder="Ваш номер"></label>
@@ -387,7 +387,7 @@
 							<div class="card-wrap card-wrap_course wow animate__animated animate__fadeIn">
 								<div class="card card_price card_course">
 									<div class="card__badge">
-										<h4 class="card__badge-text">2990 ₽</h4>
+										<h4 class="card__badge-text">от 2990 ₽</h4>
 									</div>
 									<div class="card__body">
 										<div class="card__img card__img_header">
@@ -430,6 +430,147 @@
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="title-wrap">
+								<h2 class="title">Отзывы наших учеников</h2>
+								<p class="subtitle">Отзывы реальных людей, которые изучали язык вместе с нами</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="slide">
+												<div class="slide__body">
+													<div class="slide__header">
+														<img src="img/slider/img-slider-1.jpg" srcset="img/slider/img-slider-retina-1.jpg 2x" alt="photo" class="slide__photo">
+														<div class="slide__user">
+															<h3 class="slide__username">Виктор Ли</h3>
+															<h5 class="slide__user-status">Ученик школы</h5>
+														</div>
+													</div>
+													<div class="separator">
+														<div class="separator__line"></div>
+														<div class="separator__ellipse"></div>
+														<div class="separator__line"></div>
+													</div>
+													<div class="slide__content">
+														<p class="slide__text">
+															Доброго времени суток, я недавно начал заниматься корейским в вашей школе, и мне все нравится!
+															Уже могу читать свободно на корейском, могу ответить на элементарные вопросы, и так же их задать! Я думал что будет очень
+															сложно... Но как оказалось, очень просто и здорово! Спасибо вам огромное! Как говорится дальше больше 😂
+														</p>
+														<a href="https://vk.com/topic-198172207_46463980" target="_blank" class="slide__link">Страница отзыва</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="slide">
+												<div class="slide__body">
+													<div class="slide__header">
+														<img src="img/slider/img-slider-2.jpg" srcset="img/slider/img-slider-retina-2.jpg 2x" alt="photo" class="slide__photo">
+														<div class="slide__user">
+															<h3 class="slide__username">Евгения Молчанова</h3>
+															<h5 class="slide__user-status">Ученик школы</h5>
+														</div>
+													</div>
+													<div class="separator">
+														<div class="separator__line"></div>
+														<div class="separator__ellipse"></div>
+														<div class="separator__line"></div>
+													</div>
+													<div class="slide__content">
+														<p class="slide__text">
+															День добрый.
+															Занимаюсь с преподавателем Юлианом с января этого года 2 раза в неделю по часу. За это время была пройдена программа 1 гыпа.
+															Грамотная подача материала, умение донести до ученика знания. Комфортная, домашняя среда обучения и индивидуальный подход делают освоение корейского языка интересным и создают хорошую базу для дальнейшего изучения.
+														</p>
+														<a href="https://vk.com/topic-198172207_46463980" target="_blank" class="slide__link">Страница отзыва</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="slide">
+												<div class="slide__body">
+													<div class="slide__header">
+														<img src="img/slider/img-slider-3.jpg" srcset="img/slider/img-slider-retina-3.jpg 2x" alt="photo" class="slide__photo">
+														<div class="slide__user">
+															<h3 class="slide__username">Александра Ли</h3>
+															<h5 class="slide__user-status">Ученик школы</h5>
+														</div>
+													</div>
+													<div class="separator">
+														<div class="separator__line"></div>
+														<div class="separator__ellipse"></div>
+														<div class="separator__line"></div>
+													</div>
+													<div class="slide__content">
+														<p class="slide__text">
+															Мне очень нравится система обучения в онлайн-школе: занятия с преподавателем, работа с методическими материалами, изучение слов с помощью карточек и приложения quizlet, возможность задавать вопросы в любое время в чате. Очень мобильно и удобно для студента!
+															На данный момент могу довольно бегло читать на корейском языке, составлять простые предложения, воспринимать на слух пока даётся нелегко, но прогресс определенно есть!
+															Спасибо вам большое❤
+														</p>
+														<a href="https://vk.com/topic-198172207_46463980" target="_blank" class="slide__link">Страница отзыва</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="slide">
+												<div class="slide__body">
+													<div class="slide__header">
+														<img src="img/slider/img-slider-4.jpg" srcset="img/slider/img-slider-retina-4.jpg 2x" alt="photo" class="slide__photo">
+														<div class="slide__user">
+															<h3 class="slide__username">Saodat Nagimaeva</h3>
+															<h5 class="slide__user-status">Ученик школы</h5>
+														</div>
+													</div>
+													<div class="separator">
+														<div class="separator__line"></div>
+														<div class="separator__ellipse"></div>
+														<div class="separator__line"></div>
+													</div>
+													<div class="slide__content">
+														<p class="slide__text">
+															Здравствуйте :)
+															Обучаюсь в данной школе с начала этого года. За это время поняла, что изучение корейского языка здесь - это правильный выбор ✅ уроки увлекательные; материал преподноситься доступно; учитель всегда готов ответить на вопросы учеников, чтобы убедиться, что все понятно
+														</p>
+														<a href="https://vk.com/topic-198172207_46463980" target="_blank" class="slide__link">Страница отзыва</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
 								</div>
 							</div>
 						</div>
