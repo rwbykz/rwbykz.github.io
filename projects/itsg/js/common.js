@@ -1,47 +1,3 @@
-//Smooth scroll
-// console.log('start position = ' + window.pageYOffset);
-// const smoothScroll = (target, duration) => {
-//   var target = document.querySelector(target);
-//   let targetPosition = target.getBoundingClientRect().top;
-//   let startPosition = window.pageYOffset;
-//   let distance = targetPosition - startPosition;
-//   let startTime = null;
-
-//   console.log('start position = ' + startPosition);
-//   console.log('target position = ' + targetPosition);
-
-//   const animation = currentTime => {
-//     if (startTime === null) startTime = currentTime;
-//     // console.log(startTime);
-//     let timeElapsed = currentTime - startTime;
-//     // console.log('elapsed ' + timeElapsed);
-//     let run = ease(timeElapsed, startPosition, distance, duration);
-//     window.scrollTo(0, run);
-
-//     if (timeElapsed < duration) requestAnimationFrame(animation);
-//   }
-//   // Больше плавных функций здесь ---> http://www.gizma.com/easing/
-//   const ease = (t, b, c, d) => {
-//     t /= d / 2;
-//     if (t < 1) return c / 2 * t * t * t + b;
-//     t -= 2;
-//     return c / 2 * (t * t * t + 2) + b;
-//   }
-
-//   requestAnimationFrame(animation);
-// }
-
-// let heroBtn = document.querySelector('.hero__btn');
-// let heroToServices = document.querySelector('.hero-services-link');
-
-// heroBtn.addEventListener('click', () => {
-//   smoothScroll('.about', 2350);
-// });
-
-// heroToServices.addEventListener('click', () => {
-//   smoothScroll('.services', 2350);
-// });
-
 //swiper slider
 
 const slider = document.querySelector('.swiper-container')
@@ -67,10 +23,9 @@ let mySwiper = new Swiper(slider, {
   }
 })
 
-// Scroll with jQuery
 $(document).ready(function () {
+  // Scroll with jQuery
   $('.scroll-anch').click(function () {
-    console.log('hello');
     var scroll_el = $(this).data('target');
     if ($(scroll_el).length != 0) {
       $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 1750);
@@ -79,9 +34,49 @@ $(document).ready(function () {
   });
 
   $('.scroll-anch').click(function () {
-    console.log('hello');
     $('html body').animate({
       scrollTop: $(this).offset().top
     }, 1750)
   });
+
+  // Form script
+  $('.form').submit(function () {
+    $.ajax({
+      type: "POST",
+      url: "telegram.php",
+      data: $(this).serialize()
+    }).done(function () {
+      // $('.form__note').removeClass('display-none');
+      $(this).find('input').val('');
+      $('.form').trigger('reset');
+      // setTimeout(function() {
+        // $('.form__note').addClass('display-none');
+      // }, 1000);
+    });
+    return false;
+  });
+
+  // Form validation
+  const formValidation = () => {
+    const form = document.querySelector('.feedback__form');
+
+    if (form) {
+      const inputs = form.querySelectorAll('input'),
+            button = form.querySelector('button');
+      
+      button.addEventListener('click', () => {
+        if (inputs[0].value !== '' && inputs[1].value !== '') {
+          button.classList.add('feedback__btn_success');
+          inputs.forEach(input => {
+            input.value === '' ? input.classList.add('feedback__text-field_error') : input.classList.remove('feedback__text-field_error');
+          });
+        } else {
+          inputs.forEach(input => {
+            input.value === '' ? input.classList.add('feedback__text-field_error') : input.classList.remove('feedback__text-field_error');
+          });
+        }
+      });
+    }
+  }
+  formValidation();
 });

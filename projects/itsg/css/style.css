@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -779,7 +780,6 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 32px 24px;
-  border: 1px solid #DADCE0;
   -webkit-border-radius: 6px;
           border-radius: 6px; }
 
@@ -870,7 +870,7 @@ h1 {
 
 .feedback__form {
   width: 100%;
-  max-width: 295px;
+  max-width: 305px;
   min-width: 280px; }
 
 @media screen and (max-width: 760px) {
@@ -890,6 +890,7 @@ h1 {
   margin-bottom: 24px; }
 
 .feedback__text-field {
+  width: 100%;
   padding: 9px 18px;
   font-size: 16px;
   line-height: 18px;
@@ -903,6 +904,10 @@ h1 {
   .feedback__text-field:focus {
     outline: none;
     border-bottom: 2px solid #EF7F1A; }
+  .feedback__text-field_error {
+    border: 2px solid tomato;
+    -webkit-border-radius: 6px;
+            border-radius: 6px; }
 
 .feedback__btn {
   font-size: 16px;
@@ -919,10 +924,38 @@ h1 {
   margin-bottom: 12px;
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
-  transition: all 300ms; }
+  transition: all 300ms;
+  position: relative;
+  outline: none; }
   .feedback__btn:hover {
     -webkit-box-shadow: 0 0 20px rgba(91, 91, 91, 0.25);
             box-shadow: 0 0 20px rgba(91, 91, 91, 0.25); }
+  .feedback__btn::after {
+    content: 'Отправлено!';
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #30AD00;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    opacity: 0; }
+  .feedback__btn_success::after {
+    opacity: 1; }
 
 .feedback__policy {
   display: -webkit-box;
