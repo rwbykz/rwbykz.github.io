@@ -90,6 +90,9 @@ h1 {
 
 .header {
   padding-top: 60px; }
+  @media (max-width: 1200px) {
+    .header {
+      padding-top: 20px; } }
 
 .header__row {
   display: -webkit-box;
@@ -210,6 +213,9 @@ h1 {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+  @media (max-width: 1200px) {
+    .hero__row {
+      padding: 10% 0; } }
 
 @media screen and (max-width: 900px) {
   .hero__row {
@@ -976,6 +982,30 @@ h1 {
 
 .feedback__text {
   font-size: 13px; }
+
+.service-page__list-box {
+  margin-bottom: 2rem; }
+
+.service-page__list-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #5b5b5b;
+  margin-bottom: 1rem; }
+
+.service-page .service-page__list-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 0.5rem; }
+
+.service-page__list-icon {
+  margin-right: 0.5rem;
+  padding-top: 0.25rem; }
 
 .service-page-img {
   min-height: 40vh;
