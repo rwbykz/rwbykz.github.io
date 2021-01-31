@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   background: -webkit-linear-gradient(302.9deg, #B4C6F7 0.64%, #E4A7B4 100%);
   background: -o-linear-gradient(302.9deg, #B4C6F7 0.64%, #E4A7B4 100%);
   background: linear-gradient(147.1deg, #B4C6F7 0.64%, #E4A7B4 100%);
+  background: -webkit-linear-gradient(147.1deg, #B4C6F7 0.64%, #E4A7B4 100%);
   background-repeat: no-repeat; }
 
 .main-content, .wrapper {
@@ -154,6 +155,7 @@ section {
   background: -webkit-linear-gradient(299.73deg, rgba(255, 255, 255, 0.15) 1.53%, rgba(255, 255, 255, 0.09) 98.36%);
   background: -o-linear-gradient(299.73deg, rgba(255, 255, 255, 0.15) 1.53%, rgba(255, 255, 255, 0.09) 98.36%);
   background: linear-gradient(150.27deg, rgba(255, 255, 255, 0.15) 1.53%, rgba(255, 255, 255, 0.09) 98.36%);
+  background: -webkit-linear-gradient(150.27deg, rgba(255, 255, 255, 0.15) 1.53%, rgba(255, 255, 255, 0.09) 98.36%);
   -webkit-backdrop-filter: blur(30px);
           backdrop-filter: blur(30px);
   padding: 2rem 4rem; }
